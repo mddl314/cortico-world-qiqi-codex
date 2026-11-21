@@ -1,0 +1,24 @@
+{
+  "name": "cortico-world-qiqi-codex",
+  "version": "0.3.4",
+  "type": "module",
+  "description": "鳍鳍可调用的本地 Codex 委托工具。",
+  "author": "末地凋零",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mddl314/cortico-world-qiqi-codex.git"
+  },
+  "bugs": { "url": "https://github.com/mddl314/cortico-world-qiqi-codex/issues" },
+  "keywords": ["cortico-world"],
+  "engines": { "node": ">=22" },
+  "exports": "./index.js",
+  "files": ["access.js", "index.js", "owner.js", "panel.js", "runner.js", "world.js", "setup.mjs", "describe.json", "README.md", "CHANGELOG.md"],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "鳍鳍的 Codex",
+    "tags": ["apps", "external-setup", "experimental", "unsafe"],
+    "describe": "describe.json",
+    "webUiClient": "panel.js"
+  }
+}
